@@ -1,0 +1,76 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-flow:row wrap;
+    .item{
+        margin: 0 20px 20px 0;
+        border: 1px solid #BCB7B7;
+        min-height: 200px;
+        width: 48%;
+        min-width: 500px;
+        .top{
+            width: 100%;
+            display: flex;
+            border-bottom: 1px dotted #BCB7B7;
+            .topLeft{
+                width: 50%;
+                border-right: 1px dotted #BCB7B7;
+                display: flex;
+                .topLeft_l{
+                    width: 120px;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .topLeft_r{
+                    width: 180px;
+                    padding-left:10px;
+                    div{
+                        margin: 8px;
+                    }
+                }
+            }
+            .topRight{
+                padding: 16px;
+                .topRight_title{
+                    margin-bottom: 8px;
+                }
+                .topRight_content{
+                    text-indent: 2em;
+                    overflow:hidden;
+                    text-overflow:ellipsis;
+                    display:-webkit-box;
+                    -webkit-box-orient:vertical;
+                    -webkit-line-clamp:2;
+                }
+            }
+        }
+        .bottom{
+            padding: 12px;
+            .bottom_title{
+                margin-bottom: 10px;
+            }
+            .bottom1{
+                width: 100%;
+                display: flex;
+                // justify-content: space-between;
+                .bottom1_item{
+                    margin-right: 4%;
+                    width: 16%;
+                    height: 100px;
+                    position: relative;
+                    a{
+                        position: absolute;
+                        top: 0;
+                        bottom: 0;
+                        width: 100%;
+                        z-index: 1000;
+                    }
+                }
+            }
+        }
+    }
+}
+.noVideo{
+    text-align: center;
+}

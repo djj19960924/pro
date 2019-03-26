@@ -1,0 +1,724 @@
+.container{
+    width: 100%;
+    min-width: 1400px;
+    max-width: 1920px;
+    height: 1400px;
+    color: #CECFD1;
+    .header{
+        width: 100%;
+        img{
+            width:100%;
+        }
+    }
+    .body{
+        max-width: 1600px;
+        margin: 0 auto;
+        padding: 16px 22px;
+        .firstFloor{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-end;
+            .card1{
+                height: 331px;
+                width: 28%;
+                .userNum{
+                    font-size: 13px;
+                    span{
+                        color: #61D2F7
+                    }
+                }
+                .totalUser{
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                    div{
+                        background: #0F2446;
+                        color: #61D2F7;
+                        font-size: 28px;
+                        padding: 1px 14px;
+                        border: 1px solid #254573;
+                        border-radius: 3px
+                    }
+                }
+                .threeNum{
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    margin-top: 10px;
+                    >div{
+                        text-align: center;
+                        >div:first-child{
+                            font-size: 18px;
+                        }
+                        >div:last-child{
+                            font-size: 12px;
+                            color: #3B6192
+                        }
+                    }
+                    >b{
+                        display: block;
+                        height: 24px;
+                        width: 1px;
+                        background: #3B5F90
+                    }
+                }
+                .sexTitle{
+                    display: flex;
+                    justify-content: space-between;
+                    font-size: 13px;
+                    margin: 10px 0;
+                    .sexTitle_right{
+                        display: flex;
+                        width: 86px;
+                        align-items: center;
+                        justify-content: space-between;
+                        .sexTitle_right_man{
+                            width: 20px;
+                            height: 12px;
+                            border-radius: 2px;
+                            background: -webkit-linear-gradient(left, #06C8F3 , #0384DC); /* Safari 5.1 - 6.0 */
+                            background: -o-linear-gradient(right, #06C8F3, #0384DC); /* Opera 11.1 - 12.0 */
+                            background: -moz-linear-gradient(right, #06C8F3, #0384DC); /* Firefox 3.6 - 15 */
+                            background: linear-gradient(to right, #06C8F3 , #0384DC); /* 标准的语法 */
+                        }
+                        .sexTitle_right_woman{
+                            width: 20px;
+                            height: 12px;
+                            border-radius: 2px;
+                            background: -webkit-linear-gradient(left, #FB4541 , #F34A7F); /* Safari 5.1 - 6.0 */
+                            background: -o-linear-gradient(right, #FB4541, #F34A7F); /* Opera 11.1 - 12.0 */
+                            background: -moz-linear-gradient(right, #FB4541, #F34A7F); /* Firefox 3.6 - 15 */
+                            background: linear-gradient(to right, #FB4541 , #F34A7F); /* 标准的语法 */
+                        }
+                    }
+                }
+                .duidie{
+                    border-radius: 3px;
+                    border: 1px solid #32517C;
+                    margin: 12px 0 4px 0;
+                    padding: 8px 0;
+                }
+            }
+            .card2{
+                width: 42%;
+                height: 315px;
+                .tongji_p{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    .tongji{
+                        background: #0C1931;
+                        border: 1px solid #2D4C77;
+                        width: 32%;
+                        .tongji_title{
+                            font-size: 12px;    
+                            padding-left: 8px;
+                            padding-right: 8px;
+                            margin-top: 5px;
+                        }
+                        .tongji_value{
+                            font-size: 28px;
+                            letter-spacing: 2px;
+                            padding-left: 6px;
+                            padding-right: 6px;
+                            span:first-child{
+                                max-width: 83%;
+                                overflow: hidden;
+                                display: inline-block;
+                                text-overflow: ellipsis;
+                                vertical-align: bottom;
+                            }
+                            span:last-child{
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                }
+                .charts_p{
+                    display: flex;
+                    height: 200px;
+                    .charts_left{
+                        width: 50%;
+                        margin-right: 8px;
+                        .charts_title{
+                            font-size: 13px;
+                            margin: 8px 0;
+                        }
+                    }
+                    .charts_right{
+                        width: 50%;
+                        .charts_title{
+                            font-size: 13px;
+                            margin: 8px 0;
+                            position: relative;
+                        }
+                        .charts4{
+                            display: flex;
+                            width: 100%;
+                            margin-top: 40px;
+                            .charts4_i{
+                                width: 49%;
+                                padding-right: 8px;
+                                display: flex;
+                                .charts4_left{
+                                    width: 42px;
+                                    height: 44px;
+                                    img{    
+                                        width: 32px;
+                                        height: 30px;
+                                        margin-top: 5px;
+                                    }
+                                }
+                                .charts4_right{
+                                    display: flex;
+                                    height: 44px;
+                                    flex-direction: column;
+                                    justify-content: space-between;
+                                    .charts4_right_top{
+                                        color: #24589B;
+                                        font-size: 12px;
+                                    }
+                                    .charts4_right_bottom{
+                                        font-size: 17px;
+                                        span{
+                                            font-size: 12px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .card3{
+                width: 28%;
+                height: 331px;
+                .tice_top{
+                    width: 100%;
+                    height: 174px;
+                    display: flex;
+                    align-items: center;
+                    .tice_top_left{
+                        width: 100px;
+                        height: 100%;
+                        img{
+                            width: 62px;
+                            margin: auto;
+                            display: block;
+                        }
+                    }
+                    .tice_top_cutline{
+                        width: 1px;
+                        height: 96%;
+                        background: #183F75;
+                        margin: 0 22px 0 12px;
+                    }
+                    .tice_top_right{
+                        flex-grow: 1;
+                        height: 100%;
+                        .tcdata_top{
+                            width: 100%;
+                            display: flex;
+                            height: 50px;
+                            .tcdata_top_left{
+                                width: 48px;
+                                height: 100%;
+                                margin-right: 10px;
+                                img{
+                                    width: 100%;
+                                    display: block;
+                                    margin-top: 2px;
+                                }
+                            }
+                            .tcdata_top_right{
+                                height: 100%;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: space-between;
+                                .tcdata_t_r_t{
+                                    font-size: 12px;
+                                }
+                                .tcdata_t_r_b{
+                                    font-size: 22px;
+                                    color: #479CBD;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                        .tcdata_center{
+                            width: 100%;
+                            height: 56px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-around;
+                            .tice_good{
+                                display: flex;
+                                .tice_good_1{
+                                    flex-grow: 1;
+                                    height: 22px;
+                                    border-radius: 2px;
+                                    background: #3A4353;
+                                    position: relative;
+                                    .tice_good_2{
+                                        height: 22px;
+                                        border-radius: 2px;
+                                        position: absolute;
+                                        top: 0;
+                                        left: 0;
+                                        border-top-right-radius: 0;
+                                        border-bottom-right-radius: 0;
+                                        background: -webkit-linear-gradient(left, #1889D9 , #1BCDEF); /* Safari 5.1 - 6.0 */
+                                        background: -o-linear-gradient(right, #1889D9, #1BCDEF); /* Opera 11.1 - 12.0 */
+                                        background: -moz-linear-gradient(right, #1889D9, #1BCDEF); /* Firefox 3.6 - 15 */
+                                        background: linear-gradient(to right, #1889D9 , #1BCDEF); /* 标准的语法 */
+                                    }
+                                }
+                                .tice_good_percent{
+                                    width: 46px;
+                                    text-align: right;
+                                }
+                            }
+                        }
+                        .tcdata_bottom{
+                            width: 100%;
+                            height: 56px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-around;
+                            .tcdata_age{
+                                height: 20px;
+                                width: 100%;
+                                display: flex;
+                                .tcdata_age_item{
+                                    font-size: 12px;
+                                    .tcdata_age_item_top{
+                                        text-align: center;
+                                        color: #fff;
+                                    }
+                                    .tcdata_age_item_bottom{
+                                        margin-top: 4px;
+                                        font-size: 12px;
+                                        text-align: center;
+                                        min-width: 38px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .tice_bottom{
+                    width: 100%;
+                    margin-top: 10px;
+                    .waterContainer{
+                        margin-top: 6px;
+                        width: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        .waterItem{
+                            .level{
+                                position: absolute;
+                                width: 100%;
+                                text-align: center;
+                                font-size: 12px;
+                                bottom: 0px;
+                            }
+                            width: 56px;
+                            height: 86px;
+                            overflow: hidden;
+                            border-radius: 3px;
+                            position: relative;
+                            .water {
+                                position: relative;
+                                width: 56px;
+                                height: 66px;
+                                border-radius: 3px;
+                            }
+                            .water1{
+                                background: -webkit-linear-gradient(#50B2FF , #4640DB); /* Safari 5.1 - 6.0 */
+                                background: -o-linear-gradient(#50B2FF, #4640DB); /* Opera 11.1 - 12.0 */
+                                background: -moz-linear-gradient(#50B2FF, #4640DB); /* Firefox 3.6 - 15 */
+                                background: linear-gradient(#50B2FF , #4640DB); /* 标准的语法 */
+                            }
+                            .water2{
+                                background: -webkit-linear-gradient( #FFE564 , #FA8312); /* Safari 5.1 - 6.0 */
+                                background: -o-linear-gradient( #FFE564, #FA8312); /* Opera 11.1 - 12.0 */
+                                background: -moz-linear-gradient( #FFE564, #FA8312); /* Firefox 3.6 - 15 */
+                                background: linear-gradient( #FFE564 , #FA8312); /* 标准的语法 */
+                            }
+                            .water3{
+                                background: -webkit-linear-gradient( #AAFCFF , #0086DE); /* Safari 5.1 - 6.0 */
+                                background: -o-linear-gradient( #AAFCFF, #0086DE); /* Opera 11.1 - 12.0 */
+                                background: -moz-linear-gradient( #AAFCFF, #0086DE); /* Firefox 3.6 - 15 */
+                                background: linear-gradient( #AAFCFF , #0086DE); /* 标准的语法 */
+                            }
+                            .water4{
+                                background: -webkit-linear-gradient( #FFB964 , #FF3434); /* Safari 5.1 - 6.0 */
+                                background: -o-linear-gradient( #FFB964, #FF3434); /* Opera 11.1 - 12.0 */
+                                background: -moz-linear-gradient( #FFB964, #FF3434); /* Firefox 3.6 - 15 */
+                                background: linear-gradient( #FFB964 , #FF3434); /* 标准的语法 */
+                            }
+                            .waterBefore,.waterAfter{
+                                content: "";
+                                position: absolute;
+                                width: 300px;
+                                height: 300px;
+                                top: -50px;
+                                // top: -78px;
+                                left: 50%;
+                                background-color: rgba(59,65,82, .4);
+                                border-radius: 45%;
+                                transform: translate(-50%, -70%) rotate(0);
+                                animation: rotate 6s linear infinite;
+                                z-index: 10;
+                            }
+                            .waterAfter{
+                                border-radius: 47%;
+                                background-color: rgba(59,65,82, .9);
+                                transform: translate(-50%, -70%) rotate(0);
+                                animation: rotate 10s linear -5s infinite;
+                                z-index: 20;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .secondFloor{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-top: 36px;
+            .s1,.s3{
+                width: 33%;
+            }
+            .s2{
+                width: 32%;
+            }
+            .card_small{
+                width: 100%;
+                margin-bottom: 36px;
+            }
+            .card_big{
+                height: 636px;
+            }
+            .card4{
+                .game{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                    height: 141px;
+                    .game_left{
+                        width: 25%;
+                        height: 100%;
+                        border: 1px solid #3B6093;
+                        border-radius: 3px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: space-around;
+                        padding: 12px 0;
+                        img{
+                            width: 50px;
+                            height: 50px;
+                        }
+                        p{
+                            font-size: 12px;
+                            color: #2561B1;
+                            width: 100%;
+                            text-align: center;
+                            margin: 0;
+                            margin: 10px 0;
+                        }
+                        div{
+                            font-size: 18px;
+                            width: 100%;
+                            text-align: center;
+                            span{
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                    .game_right{
+                        width: 45%;
+                        height: 100%;
+                        border-radius: 3px;
+                        .game_sex{
+                            font-size: 12px;
+                            width: 100%;
+                            margin-top: 25px;
+                            .game_sex_i{
+                                width: 100%;
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: space-between;
+                                margin-top: 6px;
+                                align-items: center;
+                                .game_sex1{
+                                    width: 20px;
+                                }
+                                .game_sex3{
+                                    width: 30px;
+                                    text-align: right;
+                                }
+                                .game_sex2{
+                                    flex-grow: 1;
+                                    height: 10px;
+                                    border-radius: 50px;
+                                    background: #374354;
+                                    position: relative;
+                                    div{
+                                        position:absolute;
+                                        top: 0;
+                                        left: 0;
+                                        border-radius: 50px;
+                                        height: 10px;
+                                    }
+                                    .game_sex2_man{
+                                        background: -webkit-linear-gradient(left, #5242D5 , #208CE2); /* Safari 5.1 - 6.0 */
+                                        background: -o-linear-gradient(right, #5242D5, #208CE2); /* Opera 11.1 - 12.0 */
+                                        background: -moz-linear-gradient(right, #5242D5, #208CE2); /* Firefox 3.6 - 15 */
+                                        background: linear-gradient(to right, #5242D5 , #208CE2); /* 标准的语法 */
+                                    }
+                                    .game_sex2_woman{
+                                        background: -webkit-linear-gradient(left, #DB1DFC , #F84D89); /* Safari 5.1 - 6.0 */
+                                        background: -o-linear-gradient(right, #DB1DFC, #F84D89); /* Opera 11.1 - 12.0 */
+                                        background: -moz-linear-gradient(right, #DB1DFC, #F84D89); /* Firefox 3.6 - 15 */
+                                        background: linear-gradient(to right, #DB1DFC , #F84D89); /* 标准的语法 */
+                                    }
+                                }
+                            }
+                        }
+                        .tcdata_bottom{
+                            font-size: 12px;
+                            width: 100%;
+                            height: 47px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-around;
+                            .tcdata_age{
+                                height: 20px;
+                                width: 100%;
+                                display: flex;
+                                .tcdata_age_item{
+                                    font-size: 12px;
+                                    .tcdata_age_item_top{
+                                        text-align: center;
+                                        color: #fff;
+                                    }
+                                    .tcdata_age_item_bottom{
+                                        margin-top: 4px;
+                                        text-align: center;
+                                        min-width: 38px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .saishi{
+                    height: 88px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                    .saishi_i{
+                        font-size: 12px;
+                        display: flex;
+                        justify-content: space-between;
+                        .saishi_left{
+                            display: flex;
+                            align-items: center;
+                            .saishi_left1{
+                                color: #fff;
+                                background: #0085C4;
+                                padding: 0px 6px;
+                                border-radius: 3px;
+                            }
+                            .saishi_left2{
+                                color: #255FAE;
+                                margin: 0 5px;
+                            }
+                        }
+                        .saishi_right{
+                            text-align: right;
+                            span{
+                                color: #E23E40;
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+            .card5{
+                .club{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-around;
+                    margin-top: 6px;
+                    .club_i{
+                        width: 46%;
+                        border: 1px solid #395F92;
+                        border-radius: 3px;
+                        padding: 14px 0;
+                        margin-top: 3px;
+                        .club_i_top{
+                            display: flex;
+                            align-items: flex-end;
+                            justify-content: center;
+                            span{
+                                font-size: 22px;
+                            }
+                            img{
+                                width: 10px;
+                                margin: 0 10px;
+                                position: relative;
+                                top: -5px;
+                            }
+                            b{
+                                font-weight: 400;
+                                font-size: 12px;
+                                position: relative;
+                                top: -5px;
+                            }
+                        }
+                        .club_i_bottom{
+                            text-align: center;
+                            span{
+                                color: #fff;
+                                background: #1F8BE0;
+                                padding: 2px 12px;
+                                margin-top: 6px;
+                                border-radius: 3px;
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+                .yibiao{
+                    margin-top: 20px;
+                    display: flex;
+                    .yibiao_i{
+                        width: 33%;
+                        height: 100px;
+                    }
+                    .yibiao_txt{
+                        width: 100%;
+                        text-align: center;
+                        font-size: 12px;
+                        .yibiao_txt2{
+                            font-size: 14px;
+                            margin-top: 5px;
+                        }
+                        .yibiao_s1{
+                            color: #3BDCF4
+                        }
+                        .yibiao_s2{
+                            color: #C2CC3C
+                        }
+                        .yibiao_s3{
+                            color: #D56626
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.card{
+    min-width: 380px;
+    min-height: 300px;
+    border: 1px solid #32517C;
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 26px 10px 10px 10px;
+    .cardTitleOut{
+        border: 1px solid #142F62;
+        position: absolute;
+        top: -15px;
+        .cardTitle{
+            height: 30px;
+            line-height: 30px;
+            color: #E1E4EC;
+            font-size: 14px;
+            padding: 0 20px;
+            background: #1A3F83;
+            border: 1px solid #020B3E;
+            div{
+                width: 3px;
+                height: 3px;
+                background: #5487C8;
+                position: absolute;
+            }
+            div:first-child{
+                top: -1px;
+                left: -1px;
+            }
+            div:nth-child(2){
+                top: -1px;
+                right: -1px;
+            }
+            div:nth-child(3){
+                bottom: -1px;
+                left: -1px;
+            }
+            div:nth-child(4){
+                bottom: -1px;
+                right: -1px;
+            }
+        }
+    }
+    .cardBody{
+        width: 100%;
+    }
+}
+
+ 
+@keyframes rotate {
+    50% {
+        transform: translate(-50%, -73%) rotate(180deg);
+    } 100% {
+        transform: translate(-50%, -70%) rotate(360deg);
+    }
+}
+
+.title{
+    color: #666!important;
+    font-size: 14px;
+    font-weight: 900;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #CCCCCC;
+    position: relative;
+    .close{
+        position: absolute;
+        right: 0;
+        cursor: pointer;
+    }
+}
+.content{
+    color: #666!important;
+    width: 300px;
+    display: flex;
+    margin-top: 8px;
+    .content_left{
+        width: 100px;
+        height: 70px;
+        overflow: hidden;
+        margin-right: 10px;
+        img{
+            height: 100%;
+        }
+    }
+    .content_right{
+        width: 190px;
+        span{
+            font-weight: 900;
+        }
+    }
+}
